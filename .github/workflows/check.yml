@@ -23,6 +23,6 @@ jobs:
         with:
           node-version: ${{ matrix.version }}
       - name: Install deps
-        run: npm ci
+        run: npm i
       - name: Test
         run: npm run test
